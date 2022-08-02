@@ -1,0 +1,7 @@
+1、路由跳转 改为 this.$mrouter.push()  (具体在common/router.js)
+2、rf-login 可以根据 isShow 来控制显示
+3、dataFormat("YYYY-MM-DD hh:mm:ss")     时间格式化方法
+    
+   js 中使用
+   let filters=this.$root.$options.filters
+   let Timer= filters.dataFormat("要格式化的时间",'YYYY-MM-DD')

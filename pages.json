@@ -1,0 +1,238 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ 
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "Home",// 修改浏览器标题
+				"app-plus": {
+					"animationType": "pop-in",
+					"animationDuration": 300
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "Pagina incial",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"animationDuration": 300
+				}
+			}
+		},
+		{
+			"path": "pages/login/registry",
+			"style": {
+				"navigationBarTitleText": "registry",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"animationDuration": 300
+				}
+			}
+
+		}, {
+			"path": "pages/atividate/index",
+			"style": {
+				"navigationBarTitleText": "List de Eventos",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/fazer/index",
+			"style": {
+				"navigationBarTitleText": "fazer dinheriro",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tarefa/index",
+			"style": {
+				"navigationBarTitleText": "lista de tarefas",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/minha/index",
+			"style": {
+				"navigationBarTitleText": "minha",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/promotion/index",
+			"style": {
+				"navigationBarTitleText": "convide amigos",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/promotion/invite",
+			"style": {
+				"navigationBarTitleText": "convide amigos",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/recharge/index",
+			"style": {
+				"navigationBarTitleText": "recharge",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/problema",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/sobre",
+			"style": {
+				"navigationBarTitleText": "sobre nós",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/about",
+			"style": {
+				"navigationBarTitleText": "Detalhes",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/retirar/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/minha/bank",
+			"style": {
+				"navigationBarTitleText": "bank",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/minha/safety",
+			"style": {
+				"navigationBarTitleText": "safety",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tarefa/orderdetail",
+			"style": {
+				"navigationBarTitleText": "Lista de Pedidos",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/recharge/from",
+			"style": {
+				"navigationBarTitleText": "from",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/recharge/record",
+			"style": {
+				"navigationBarTitleText": "record",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/promotion/record",
+			"style": {
+				"navigationBarTitleText": "record",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/minha/service",
+			"style": {
+				"navigationBarTitleText": "service",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/minha/langchange",
+			"style": {
+				"navigationBarTitleText": "langchange",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/minha/appdownload",
+			"style": {
+				"navigationBarTitleText": "App",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Super Ganho",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom",
+		"animationType": "pop-in"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#307A59",
+		"borderStyle": "none",
+		"fontSize": "8px",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tarbar/home.png",
+				"selectedIconPath": "static/tarbar/home-active.png",
+				"text": "Home"
+			},
+
+			// {
+			// 	"pagePath": "pages/atividate/index",
+			// 	"iconPath": "static/tarbar/liwu.png",
+			// 	"selectedIconPath": "static/tarbar/liwu-active.png",
+			// 	"text": "activity"
+			// }, 
+
+			// {
+			// 	"pagePath": "pages/minha/service",
+			// 	"iconPath": "static/tarbar/kefu.png",
+			// 	"selectedIconPath": "static/tarbar/kefu-active.png",
+			// 	"text": "service"
+			// }, 
+
+			{
+				"pagePath": "pages/recharge/index",
+				"iconPath": "static/tarbar/actividade.png",
+				"selectedIconPath": "static/tarbar/actividade-active.png",
+				"text": "recharge"
+			},
+
+			{
+				"pagePath": "pages/fazer/index",
+				"iconPath": "static/tarbar/tarefas.png",
+				"selectedIconPath": "static/tarbar/tarefas-active.png",
+				"text": "shopping"
+			}, {
+				"pagePath": "pages/tarefa/index",
+				"iconPath": "static/tarbar/comunidade.png",
+				"selectedIconPath": "static/tarbar/comunidade-active.png",
+				"text": "task"
+			}, {
+				"pagePath": "pages/minha/index",
+				"iconPath": "static/tarbar/meu.png",
+				"selectedIconPath": "static/tarbar/meu-active.png",
+				"text": "my"
+			}
+		]
+	}
+}
