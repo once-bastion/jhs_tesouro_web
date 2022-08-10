@@ -165,7 +165,7 @@ export default {
 		yy: 'idioma'
 	},
 	tarbar: {
-		sy: "pagina inicial",
+		sy: "página inicial",
 		hd: "atividade",
 		zq: 'Compras',
 		rw: "tarefa",

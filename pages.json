@@ -184,8 +184,8 @@
 		"animationType": "pop-in"
 	},
 	"tabBar": {
-		"color": "#999999",
-		"selectedColor": "#307A59",
+		"color": "#419FD9",
+		"selectedColor": "#419FD9",
 		"borderStyle": "none",
 		"fontSize": "8px",
 		"backgroundColor": "#ffffff",

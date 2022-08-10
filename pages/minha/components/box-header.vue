@@ -1,6 +1,6 @@
 <template>
 	<view class="minha-header">
-		<view class="minha-header-info">
+		555<view class="minha-header-info">
 		<!-- 	<image src="../../../assets/images/minha/header.png" mode="widthFix"></image> -->
 			<image v-if="lang == 'pt-br'" src=".../../assets/logo2.png" mode="widthFix"></image>
 			<image v-if="lang == 'fi'" src=".../../assets/logo2.png" mode="widthFix"></image>

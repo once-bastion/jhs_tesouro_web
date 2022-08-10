@@ -119,7 +119,8 @@
 		margin: 0 auto;
 		text-align: center;
 		height: 90rpx;
-		background-image: linear-gradient(to left, #619f84, #317b5a);
+		// background-image: linear-gradient(to left, #619f84, #317b5a);
+		background-color: #429EDA;
 		border-radius: 90rpx;
 		display: flex;
 		align-items: center;

@@ -30,7 +30,7 @@ export default {
 	},
 	recharge:{
 		cz:'muling magkarga',// "充值",recarregar
-		jl:'Itala',// "记录",registro
+		jl:'rekord',// "记录",registro
 		ye:'balanse',// "余额",saldo
 		cztd:'recharge channel',// '充值通道',Canal de recarga
 		tjdd:'Magsumite ng order',// "提交订单"Enviar pedido
@@ -161,13 +161,13 @@ export default {
 		yy:'wika',//'语言'idioma
 	},
 	tarbar:{
-		sy:'unang pahina', //"首页",pagina inicial
+		sy:'Una pahina', //"首页",pagina inicial
 		hd:'Aktibidad', //"活动",atividade
-		zq:'gumawa ng pera', //'赚钱',Compras
+		zq:'Kumita pera', //'赚钱',Compras
 		rw:'Gawain', //"任务",tarefa
-		wd:'akin', //'我的',meu
+		wd:'Akin', //'我的',meu
 		kf:'serbisyo sa customer', //'客服',atendimento ao cliente
-		cz:'muling magkarga', //'充值'recarregar
+		cz:'Top up', //'充值'recarregar
 	},
 	login:{
 		qsrsjh:'Numero ng telepono', //"请输入手机号",Por favor, digite o número do telefone
