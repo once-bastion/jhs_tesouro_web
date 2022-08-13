@@ -158,7 +158,7 @@
 			height: 250rpx;
 			border-radius: 20rpx;
 			padding: 10rpx 0;
-			background-image: linear-gradient(135.48deg, #40A0D8 0%, #429EDA 100%);
+			background-image: linear-gradient(135.48deg, #419fd9 0%, #71caee 100%);
 			// background-color: linear-gradient(135.48deg, rgba(48, 122, 89, 1) 0%, rgba(115, 202, 163, 0) 100%);
 
 

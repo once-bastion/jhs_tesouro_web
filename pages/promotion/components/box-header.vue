@@ -58,7 +58,7 @@
 	}
 	.box-header {
 		/*rectangle 124*/
-		background: linear-gradient(166.07deg, #40A0D8 0%, #6DCBF2 100%);
+		background: linear-gradient(166.07deg, #419fd9 0%, #71caee 100%);
 		// background: linear-gradient(166.07deg, rgba(48, 122, 89, 1) 0%, rgba(115, 202, 163, 1) 100%);
 		border-radius: 20rpx;
 		width: calc(100% - #{120rpx});

@@ -60,7 +60,7 @@
 		color: #FFFFFF;
 		/*rectangle 159*/
 		// background: linear-gradient(128.78deg, rgba(0, 180, 115, 1) 0%, rgba(87, 240, 148, 1) 100%);
-		background: linear-gradient(128.78deg, #429EDA 0%, #72C9F0 100%);
+		background: linear-gradient(128.78deg, #429EDA 0%, #71caee 100%);
 		border-radius: 20rpx;
 
 		image {

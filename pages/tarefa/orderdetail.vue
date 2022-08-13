@@ -94,7 +94,7 @@
 		padding: 10rpx 0;
 		margin: 25rpx;
 		/*rectangle 148*/
-		background: linear-gradient(90deg, #439FDD 0%, #6CC8F0 100%);
+		background: linear-gradient(90deg, #419fd9 0%, #71caee 100%);
 		border-radius: 20rpx;
 
 

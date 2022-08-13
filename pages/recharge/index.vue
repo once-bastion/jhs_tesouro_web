@@ -161,7 +161,7 @@
 		height: 160rpx;
 		margin: 0 auto;
 		// background: linear-gradient(135.48deg, rgba(48, 122, 89, 1) 0%, rgba(115, 202, 163, 1) 100%);
-		background: linear-gradient(135.48deg, #40A0D6 0%, #6DCBF2 100%);
+		background: linear-gradient(135.48deg, #419fd9 0%, #71caee 100%);
 		border-radius: 20rpx;
 		display: flex;
 		align-items: center;

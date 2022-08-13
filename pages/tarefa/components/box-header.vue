@@ -101,7 +101,7 @@
 
 	.tarefa-header {
 		// background: url('../../../assets/images/tarefa/tarefa-bg.png') no-repeat;
-		background-image: linear-gradient(135.48deg ,#2F6F99 0% ,#4094CA 100%);
+		background-image: linear-gradient(135.48deg ,#419fd9 0% ,#71caee 100%);
 		background-size: 100% 100%;
 		// height: 370rpx;
 
