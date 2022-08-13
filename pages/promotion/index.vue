@@ -31,7 +31,7 @@
 	export default {
 		data() {
 			return {
-				teamInfo:null
+				teamInfo:1
 			}
 		},
 		components: {

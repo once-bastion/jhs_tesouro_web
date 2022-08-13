@@ -98,7 +98,7 @@
 <style lang="scss">
 	.paca-btn {
 		width: 90%;
-		background-color: #307A59;
+		background-color: #429EDA;
 		color: #FFFFFF;
 		font-weight: 700;
 		margin: 25rpx auto;
@@ -138,7 +138,7 @@
 				border: 1px solid rgba(48, 122, 89, 1);
 				border-radius: 66rpx;
 				font-size: 24rpx;
-				color: #307A59;
+				color: #429EDA;
 	
 			}
 		}

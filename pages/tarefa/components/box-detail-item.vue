@@ -185,7 +185,7 @@
 				border: 1px solid rgba(48, 122, 89, 1);
 				border-radius: 66rpx;
 				font-size: 24rpx;
-				color: #307A59;
+				color: #429EDA;
 
 			}
 		}

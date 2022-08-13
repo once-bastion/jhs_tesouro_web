@@ -73,7 +73,7 @@
 					{{$t('tarefa.ddzt')}}
 				</view>
 				<view class="list-right">
-					<text style="color: #d28c1b;" v-if="item.status==1">{{$t('tarefa.jxz')}}</text>
+					<text style="color: #E5B01A;" v-if="item.status==1">{{$t('tarefa.jxz')}}</text>
 					<text style="color: #39e355;" v-else-if="item.status==2">{{$t('tarefa.ywc')}}</text>
 				</view>
 			</view>
@@ -178,7 +178,7 @@
 			border: 1rpx solid rgba(48, 122, 89, 1);
 			border-radius: 70rpx;
 			margin: 25rpx auto;
-			color: #307A59;
+			color: #429EDA;
 
 		}
 	}

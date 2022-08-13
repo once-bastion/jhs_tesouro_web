@@ -130,7 +130,7 @@
 
 	.paca-btn {
 		width: 90%;
-		background-color: #307A59;
+		background-color: #429EDA;
 		color: #FFFFFF;
 		font-weight: 700;
 		margin: 25rpx auto;

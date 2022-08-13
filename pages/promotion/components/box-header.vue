@@ -11,7 +11,7 @@
 					</text>
 					<view @click="Jump" style="display:flex;align-items: center;">
 						{{$t('invite.jjxq')}}
-						<u-icon name="arrow-right" color="rgba(176, 210, 195, 1)"></u-icon>
+						<u-icon name="arrow-right" color="#FFFFFF"></u-icon>
 					</view>
 				</view>
 				<view class="box-header-money">
@@ -58,7 +58,8 @@
 	}
 	.box-header {
 		/*rectangle 124*/
-		background: linear-gradient(166.07deg, rgba(48, 122, 89, 1) 0%, rgba(115, 202, 163, 1) 100%);
+		background: linear-gradient(166.07deg, #40A0D8 0%, #6DCBF2 100%);
+		// background: linear-gradient(166.07deg, rgba(48, 122, 89, 1) 0%, rgba(115, 202, 163, 1) 100%);
 		border-radius: 20rpx;
 		width: calc(100% - #{120rpx});
 		padding: 35rpx 35rpx;
@@ -76,8 +77,8 @@
 			align-items: center;
 			justify-content: center;
 			margin-right: 20rpx;
-			background-color: #619D82;
-
+			// background-color: #619D82;
+			background-color: #6FB6E7;
 			image {
 				width: 50%;
 			}
@@ -87,7 +88,8 @@
 			width: calc(100% - #{100rpx});
 
 			.box-header-money {
-				color: rgba(176, 210, 195, 1);
+				// color: rgba(176, 210, 195, 1);
+				color: #FFFFFF;
 				font-size: 24rpx;
 				margin-top: 8rpx;
 
@@ -103,7 +105,8 @@
 				display: flex;
 				width: 100%;
 				justify-content: space-between;
-				color: rgba(176, 210, 195, 1);
+				// color: rgba(176, 210, 195, 1);
+				color: #FFFFFF;
 				font-size: 24rpx;
 
 

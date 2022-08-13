@@ -208,12 +208,12 @@
 			margin-top: 60rpx;
 			font-size: 32rpx;
 			text-align: center;
-			color: #307A59;
+			color: #429EDA;
 		}
 
 		.registry-btn {
 			width: 98%;
-			background-color: #307A59;
+			background-color: #429EDA;
 			color: #FFFFFF;
 			font-weight: 700;
 			margin: 45rpx auto;

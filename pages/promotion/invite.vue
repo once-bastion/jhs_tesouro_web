@@ -69,7 +69,7 @@
 			width: 95%;
 			margin: 25rpx auto;
 			border-radius: 15rpx;
-			background-color: #3F8C69;
+			background-color: #429EDA;
 			background-image: url(../../assets/images/promotion/invite-bg1.png);
 			background-size: 100% 100%;
 			background-repeat: no-repeat;
@@ -124,7 +124,7 @@
 	.paca-btn {
 		width: 90%;
 		background-color: #FFFFFF;
-		color: #307A59;
+		color: #429EDA;
 		font-weight: 700;
 		margin: 0 auto 25rpx auto;
 		border-radius: 88rpx;

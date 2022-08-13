@@ -7,7 +7,7 @@
 				<!-- Por favor, insira o valor da retirada -->
 				<u-radio-group v-model="selectid" @change="change">
 					<view class="radio-block" v-for="(item, index) in dclistInfo" :key="index">
-						<u-radio activeColor="#307A59" :label="item.name" :name="item.id">
+						<u-radio activeColor="#429EDA" :label="item.name" :name="item.id">
 						</u-radio>
 						<br>
 					</view>
@@ -247,7 +247,7 @@
 
 	.retirar-btn {
 		width: 90%;
-		background-color: #307A59;
+		background-color: #429EDA;
 		color: #FFFFFF;
 		font-weight: 700;
 		margin: 0 auto 25rpx auto;

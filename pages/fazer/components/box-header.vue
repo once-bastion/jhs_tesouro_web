@@ -1,7 +1,7 @@
 <template>
 	<view class="box-header">
 		<view class="box-header-left">
-			<view class="header-left-title">
+			<!--<view class="header-left-title">
 				{{$t('fazer.title')}}
 			</view>
 			<view class="header-left-desc">
@@ -10,9 +10,9 @@
 			<view class="header-left-btn" @click="$jump('/pages/recharge/index')">
 				{{$t('fazer.button')}}
 				
-			</view>
+			</view> -->
 		</view>
-		<image class="box-header-icon" src="../../../assets/images/index/index-icon.png" mode="widthFix"></image>
+		<!-- <image class="box-header-icon" src="../../../assets/images/index/index-icon.png" mode="widthFix"></image> -->
 	</view>
 </template>
 
@@ -30,6 +30,7 @@
 <style lang="less" scoped>
 .box-header{
 	width: 92%;
+	height: 180px;
 	border-radius: 20rpx;
 	margin: 0 auto;
 	padding-top: 25rpx;

@@ -84,7 +84,7 @@
 <style lang="scss">
 	.retirar-btn {
 		width: 95%;
-		background-color: #307A59;
+		background-color: #429EDA;
 		color: #FFFFFF;
 		font-weight: 700;
 		margin: 50rpx auto;

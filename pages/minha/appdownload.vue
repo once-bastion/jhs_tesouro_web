@@ -59,7 +59,8 @@
 		padding: 0 25rpx;
 		color: #FFFFFF;
 		/*rectangle 159*/
-		background: linear-gradient(128.78deg, rgba(0, 180, 115, 1) 0%, rgba(87, 240, 148, 1) 100%);
+		// background: linear-gradient(128.78deg, rgba(0, 180, 115, 1) 0%, rgba(87, 240, 148, 1) 100%);
+		background: linear-gradient(128.78deg, #429EDA 0%, #72C9F0 100%);
 		border-radius: 20rpx;
 
 		image {
@@ -68,6 +69,7 @@
 		}
 	}
 	.ios{
-		background: linear-gradient(95.14deg, rgba(0, 148, 255, 1) 0%, rgba(113, 195, 255, 1) 100%);
+		// background: linear-gradient(95.14deg, rgba(0, 148, 255, 1) 0%, rgba(113, 195, 255, 1) 100%);
+		background: linear-gradient(128.78deg, #049F3D 0%, #1FCC69 100%);
 	}
 </style>

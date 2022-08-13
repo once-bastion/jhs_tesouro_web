@@ -94,7 +94,7 @@
 		padding: 10rpx 0;
 		margin: 25rpx;
 		/*rectangle 148*/
-		background: linear-gradient(166.07deg, rgba(48, 122, 89, 1) 0%, rgba(115, 202, 163, 1) 100%);
+		background: linear-gradient(90deg, #439FDD 0%, #6CC8F0 100%);
 		border-radius: 20rpx;
 
 
@@ -106,7 +106,8 @@
 			padding: 10rpx 25rpx;
 
 			.top {
-				color: #AFE4CD;
+				// color: #AFE4CD;
+				color: #FFF;
 				font-size: 24rpx;
 				padding: 15rpx 0;
 				width: 100%;

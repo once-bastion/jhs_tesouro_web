@@ -56,6 +56,7 @@
 				pickershow: false,
 				list: [
 					//20,50, 100, 200, 300, 500, 1000, 3000, 5000, 10000, 30000
+					50, 100, 200, 300, 500, 1000, 2000, 3000, 5000, 10000,20000, 30000
 				],
 
 				money: '',
@@ -159,7 +160,8 @@
 		width: 95%;
 		height: 160rpx;
 		margin: 0 auto;
-		background: linear-gradient(135.48deg, rgba(48, 122, 89, 1) 0%, rgba(115, 202, 163, 1) 100%);
+		// background: linear-gradient(135.48deg, rgba(48, 122, 89, 1) 0%, rgba(115, 202, 163, 1) 100%);
+		background: linear-gradient(135.48deg, #40A0D6 0%, #6DCBF2 100%);
 		border-radius: 20rpx;
 		display: flex;
 		align-items: center;
@@ -167,12 +169,14 @@
 
 		.recharge-header-right {
 			.header-right-top {
-				color: rgba(176, 210, 195, 1);
+				color: #FFF;
+				// color: rgba(176, 210, 195, 1);
 				font-size: 24rpx;
 			}
 
 			.header-right-bottom {
-				color: rgba(176, 210, 195, 1);
+				color: #FFF;
+				// color: rgba(176, 210, 195, 1);
 				font-size: 24rpx;
 				margin-top: 10rpx;
 
@@ -204,7 +208,7 @@
 
 	.recharge-btn {
 		width: 90%;
-		background-color: #307A59;
+		background-color: #439ED8;
 		color: #FFFFFF;
 		font-weight: 700;
 		margin: 25rpx auto;
@@ -227,14 +231,14 @@
 		}
 
 		.type-item-right {
-			color: #307A59;
+			color: #439ED8;
 			font-size: 32rpx;
 			display: flex;
 			align-items: center;
 
 			.type-item-txt {
 				font-size: 32rpx;
-				color: #307A59;
+				color: #439ED8;
 			}
 		}
 

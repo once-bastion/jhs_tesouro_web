@@ -1,6 +1,6 @@
 <template>
 	<view class="box-level">
-		<u-tabs @change="change" itemStyle="width:40%;height:45px" lineWidth="40" lineColor="#307A59" :list="tabsList">
+		<u-tabs @change="change" itemStyle="width:50%;height:45px;" lineWidth="40" lineColor="#429EDA" :list="tabsList">
 		</u-tabs>
 
 		<view class="box-level-main">
@@ -9,7 +9,7 @@
 					{{$t('invite.rs')}}
 				</view>
 				<view class="bottom">
-					{{teamInfo['level_'+(tabIndex+1)].now_num}}
+					<!-- {{teamInfo['level_'+(tabIndex+1)].now_num}} -->
 				</view>
 			</view>
 			<view class="level-list">
@@ -17,7 +17,7 @@
 					{{$t('invite.jj')}}
 				</view>
 				<view class="bottom">
-					{{currency}}{{teamInfo.level_1.bonus}}
+					<!-- {{currency}}{{teamInfo.level_1.bonus}} -->
 				</view>
 			</view>
 		</view>
@@ -82,7 +82,7 @@
 
 	.paca-btn {
 		width: 90%;
-		background-color: #307A59;
+		background-color: #429EDA;
 		color: #FFFFFF;
 		font-weight: 700;
 		margin: 0 auto 25rpx auto;
@@ -110,6 +110,12 @@
 				font-weight: 700;
 				margin-top: 25rpx;
 			}
+		}
+	}
+	::v-deep .u-tabs__wrapper__nav {
+		justify-content: space-between !important;
+		.u-tabs__wrapper__nav__item {
+			padding: 0;
 		}
 	}
 </style>

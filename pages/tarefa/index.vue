@@ -3,7 +3,7 @@
 		<u-navbar leftIcon="" :title="$t('tarefa.rwlb')"></u-navbar>
 		<box-header></box-header>
 		<view style="background-color: #FFFFFF;">
-			<u-tabs itemStyle="width:27%;height:45px" @change="change" :current="current" lineWidth="60" lineColor="#307A59"
+			<u-tabs itemStyle="width:27%;height:45px" @change="change" :current="current" lineWidth="60" lineColor="#429EDA"
 				:activeStyle="activeStyle" :list="tabsList"></u-tabs>
 		</view>
 		<u-empty v-if="!list.length" text="No data" mode="data" :icon="require('../../assets/images/index/empty.png')">

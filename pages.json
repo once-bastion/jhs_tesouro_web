@@ -193,7 +193,8 @@
 				"pagePath": "pages/index/index",
 				"iconPath": "static/tarbar/home.png",
 				"selectedIconPath": "static/tarbar/home-active.png",
-				"text": "Home"
+				"text": "Home",
+				"width":"100px"
 			},
 
 			// {

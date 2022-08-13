@@ -165,13 +165,13 @@ export default {
 		yy: 'idioma'
 	},
 	tarbar: {
-		sy: "página inicial",
+		sy: "P. inicial",// página inicial -->首页 p.(页) --> página 缩写
 		hd: "atividade",
 		zq: 'Compras',
-		rw: "tarefa",
-		wd: 'meu',
+		rw: "Tarefa",
+		wd: 'Meu',
 		kf: 'atendimento ao cliente',
-		cz: 'recarregar'
+		cz: 'Recarregar'
 	},
 	login: {
 		qsrsjh: "Por favor, digite o número do telefone",

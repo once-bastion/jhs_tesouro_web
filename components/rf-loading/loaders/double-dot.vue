@@ -40,7 +40,8 @@ export default {
 	display: inline-block;
 	position: absolute;
 	top: 0;
-	background-color: #67cf22;
+	/* background-color: #67cf22; */
+	background-color: #429EDA;
 	border-radius: 100%;
 
 	-webkit-animation: bounce 2s infinite ease-in-out;

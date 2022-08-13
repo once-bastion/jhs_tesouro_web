@@ -38,7 +38,7 @@
 					{{$t('record.ddzt')}}
 				</view>
 				<view class="list-right">
-					<text style="color: #d28c1b;" v-if="item.status==0">{{$t('record.wcl')}}</text>
+					<text style="color: #E5B01A;" v-if="item.status==0">{{$t('record.wcl')}}</text>
 					<text style="color: #39e355;" v-else-if="item.status==1 || item.status==3">{{$t('record.ywc')}}</text>
 					<text style="color: #ff0000;" v-else-if="item.status==2">{{$t('record.yqx')}}</text>
 				</view>

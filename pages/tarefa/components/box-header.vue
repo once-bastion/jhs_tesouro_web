@@ -95,11 +95,13 @@
 		justify-content: space-between;
 		color: #FFFFFF;
 		font-size: 24rpx;
-		background-color: #52D298;
+		// background-color: #52D298;
+		background-color: #3EA0DC;
 	}
 
 	.tarefa-header {
-		background: url('../../../assets/images/tarefa/tarefa-bg.png') no-repeat;
+		// background: url('../../../assets/images/tarefa/tarefa-bg.png') no-repeat;
+		background-image: linear-gradient(135.48deg ,#2F6F99 0% ,#4094CA 100%);
 		background-size: 100% 100%;
 		// height: 370rpx;
 
