@@ -5,6 +5,7 @@
 			<image v-if="lang == 'pt-br'" class="logo" src="../../../assets/logo2.png" mode="widthFix"></image>
 			<image v-if="lang == 'fi'" class="logo" src="../../../assets/logo3.png" mode="widthFix"></image>
 			<image v-if="lang == 'es-mx'" class="logo" src="../../../assets/logo4.png" mode="widthFix"></image>
+			<image v-if="lang == 'tr'" class="logo" src="../../../assets/logo5.png" mode="widthFix"></image>
 			<view class="header-info-right">
 				<view class="info-name">
 					{{welcome.nickname}}

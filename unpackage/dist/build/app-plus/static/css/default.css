@@ -1,0 +1,11 @@
+.display{
+	display: flex;
+}
+.display_center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text_color_green{
+	color: #18B566;
+}

@@ -136,7 +136,7 @@ export default { // 土耳其
 		jcsxf:'Temel hizmet ücreti',//' Temel hizmet ücreti',Taxa básica
 		sxfbl:'işlem ücret oranı',//'işlem ücret oranı',taxa de taxa
 		txcg:'Nakit para çekildi',//'Nakit para çekildi',Retirada bem sucedida
-		txtip1:'Nakıt çekme miktarı 0'dan az olamaz!',//" Nakıt çekme miktarı 0'dan az olamaz！",O valor do saque não pode ser menor que 0!
+		txtip1:`Nakıt çekme miktarı 0'dan az olamaz!`,//" Nakıt çekme miktarı 0'dan az olamaz！",O valor do saque não pode ser menor que 0!
 		txtip2:'Çekme miktarı minimum para çekme miktarından az olamaz!',//' Çekme miktarı minimum para çekme miktarından az olamaz！'O valor do saque não pode ser menor que o valor mínimo do saque!
 		qrzh: 'iki farklı hesap',// iki farklı hesap'Duas contas diferentes',
 		zxtdje: 'maksimum tutar',//maksimum tutar'O montante máximo',

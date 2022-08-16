@@ -39,6 +39,10 @@
 						id: 'es-mx'
 					},
 					{
+						name: 'Türk',
+						id: 'tr'
+					},
+					{
 						name: 'Filipino',
 						id: 'fi'
 					},
