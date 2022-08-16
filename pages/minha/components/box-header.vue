@@ -78,7 +78,8 @@
 				welcome: [],
 				bonus: 0,
 				bonus_day:0,
-				lang: 'pt-br',
+				// lang: 'pt-br',
+				lang: 'tr',
 			};
 		},
 		mounted() {

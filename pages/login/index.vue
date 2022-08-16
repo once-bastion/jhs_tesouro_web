@@ -42,7 +42,8 @@
 				area_code: '',
 				account: '',
 				password: "",
-				lang: 'pt-br',
+				lang: 'tr',
+				// lang: 'pt-br',
 			};
 		},
 

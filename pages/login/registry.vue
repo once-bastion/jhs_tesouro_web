@@ -94,7 +94,8 @@
 				},
 				code_url: '',
 				url_code: "",
-				lang: 'pt-br',
+				lang: 'tr',
+				// lang: 'pt-br',
 			};
 		},
 		components: {
