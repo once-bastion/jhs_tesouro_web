@@ -150,4 +150,7 @@
 			}
 		}
 	}
+	.login-box-item > uni-input{
+		width: 300px;
+	}
 </style>
