@@ -161,41 +161,41 @@ export default { // 西班牙
 		yy:'idioma',//'idioma'idioma
 	},
 	tarbar:{ //------------------------------
-		sy:'Una pahina', //" página inicial ",pagina inicial
-		hd:'Aktibidad', //"actividades",atividade
-		zq:'Kumita pera', //'Ganar dinero',Compras
-		rw:'Gawain', //"tarea",tarefa
-		wd:'Akin', //'mío/a',meu
-		kf:'serbisyo sa customer', //' atención al cliente ',atendimento ao cliente
-		cz:'Top up', //'recargar'recarregar
+		sy:'página inicial', //" página inicial ",pagina inicial
+		hd:'actividades', //"actividades",atividade
+		zq:'Ganar dinero', //'Ganar dinero',Compras
+		rw:'tarea', //"tarea",tarefa
+		wd:'mío/a', //'mío/a',meu
+		kf:'atención al cliente', //' atención al cliente ',atendimento ao cliente
+		cz:'recargar', //'recargar'recarregar
 	},
 	login:{
-		qsrsjh:'Numero ng telepono', //" Por favor ingrese el número de teléfono",Por favor, digite o número do telefone
-		qsrmm:'Pakipasok ang password', //' Por favor, ingrese contraseña ',Por favor, digite a senha
-		dl:'Mag log in', //' autenticación ',autenticação
-		zczh:'Magrehistro ng isang account', //" Registrar Cuenta"registrar conta
+		qsrsjh:'Por favor ingrese el número de teléfono', //" Por favor ingrese el número de teléfono",Por favor, digite o número do telefone
+		qsrmm:'Por favor, ingrese contraseña', //' Por favor, ingrese contraseña ',Por favor, digite a senha
+		dl:'autenticación', //' autenticación ',autenticação
+		zczh:'Registrar Cuenta', //" Registrar Cuenta"registrar conta
 	},
 	registry:{
-		qsrsjh:'Numero ng telepono', //' Por favor,ingrese el número de teléfono',Por favor, digite o número de telefone
-		qsrmm:'Pakipasok ang password', //" Por favor, ingrese contraseña",Por favor, digite a senha
-		qzcsrmm:'Pakilagay muli ang password', //' Por favor ingrese la contraseña nuevamente',Por favor, digite a senha novamente
-		qsrzm:'pakilagay ang verification code', //' Por favor,ingrese el codigo de verificacion ',Por favor, digite o código de verificação
-		qsryqm:'Pakilagay ang code ng imbitasyon', //' Por favor, introduzca el código de invitación',Por favor, digite o código de convite
-		zc:'magparehistro', //' registrar',registrar
-		name:'Mangyaring maglagay ng pangalan', //' Por favor, ingrese un nombre',Por favor, digite um nome
-		qsrzqdyzm:'Pakilagay ang tamang verify code', //" Por favor ingrese el código de verificación correcto！",Por favor, digite o código de verificação correto!
-		mobileError:'Maglagay ng 10-11 digit ng numero ng mobile phone', //' Ingrese el número de teléfono celular de 10-11 dígitos ',Digite o número de telefone celular de 10-11 dígitos
-		passwordError:'Dalawang beses na ipinasok ang hindi tugmang password', //' Dos entradas de contraseña inconsistentes ',Duas entradas de senha inconsistentes
+		qsrsjh:'Por favor,ingrese el número de teléfono', //' Por favor,ingrese el número de teléfono',Por favor, digite o número de telefone
+		qsrmm:'Por favor, ingrese contraseña', //" Por favor, ingrese contraseña",Por favor, digite a senha
+		qzcsrmm:'Por favor ingrese la contraseña nuevamente', //' Por favor ingrese la contraseña nuevamente',Por favor, digite a senha novamente
+		qsrzm:'Por favor,ingrese el codigo de verificacion', //' Por favor,ingrese el codigo de verificacion ',Por favor, digite o código de verificação
+		qsryqm:'Por favor, introduzca el código de invitación', //' Por favor, introduzca el código de invitación',Por favor, digite o código de convite
+		zc:'registrar', //' registrar',registrar
+		name:'Por favor, ingrese un nombre', //' Por favor, ingrese un nombre',Por favor, digite um nome
+		qsrzqdyzm:'Por favor ingrese el código de verificación correcto!', //" Por favor ingrese el código de verificación correcto！",Por favor, digite o código de verificação correto!
+		mobileError:'Ingrese el número de teléfono celular de 10-11 dígitos', //' Ingrese el número de teléfono celular de 10-11 dígitos ',Digite o número de telefone celular de 10-11 dígitos
+		passwordError:'Dos entradas de contraseña inconsistentes', //' Dos entradas de contraseña inconsistentes ',Duas entradas de senha inconsistentes
 	},
 	newadd: {
-		xzapp: 'aplikasyon sa paglipat', // "Transferir aplicacao", Solicitud de transferencia
-		lssr: 'Renda histórica', // 'Renda histórica', Ingresos históricos
-		cxsr: 'kita sa promosyon', // 'Renda de promoção', Ingresos de promoción
-		zzc: 'Kabuuang asset', // 'Ativos totais', Activos totales
-		copy: 'kopya', // 'copia',copia
-		chongzhi: 'muling magkarga', // 'Recharge',recarga
-		tixian: 'pag-withdraw', // 'Retirada',Retiro
-		yqm:'code ng imbitasyon:', // "Código do convite:"Código de invitación：
+		xzapp: 'Solicitud de transferencia', // "Transferir aplicacao", Solicitud de transferencia
+		lssr: 'Ingresos históricos', // 'Renda histórica', Ingresos históricos
+		cxsr: 'Ingresos de promoción', // 'Renda de promoção', Ingresos de promoción
+		zzc: 'Activos totales', // 'Ativos totais', Activos totales
+		copy: 'copia', // 'copia',copia
+		chongzhi: 'recarga', // 'Recharge',recarga
+		tixian: 'Retiro', // 'Retirada',Retiro
+		yqm:'Código de invitación:', // "Código do convite:"Código de invitación：
 	}
 }
 

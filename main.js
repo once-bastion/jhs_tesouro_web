@@ -11,28 +11,8 @@ import $mRouter from '@/common/router.js';
 Vue.prototype.$mRouter = $mRouter;
 $mRouter.beforeEach((navType, to) => {
 	// 
-	if (!to.path) {
-		uni.reLaunch({
-			url: '/pages/index/index'
-		});
-		return;
 	}
 	// 
-	if (!!to.isloginToast) {
-		const query = {
-			redirectUrl: to.path,
-			...to.query
-		};
-		uni.setStorageSync('backPath', JSON.stringify(query))
-		uni[navType]({
-			url: $mHelper.objParseUrlAndParam('/pages/login/index', to.query)
-		});
-		return;
-	} else {
-		uni[navType]({
-			url: $mHelper.objParseUrlAndParam(to.path, to.query)
-		});
-	}
 })
 // 引入uview
 import uView from '@/uni_modules/uview-ui'
@@ -46,6 +26,8 @@ import VueI18n from 'vue-i18n'
 Vue.use(VueI18n)
 const i18n = new VueI18n({
 	locale: 'pt-br',
+	locale: 'tr',
+	// locale: 'pt-br',
 	messages: {
 		'pt-br': require('./common/i18n/pt-br/index'),
 		'zh-cn': require('./common/i18n/zh-cn/index'), // 中文语言包
@@ -57,6 +39,8 @@ const i18n = new VueI18n({
 		// 'ko-rkr': require('./common/i18n/ko-rkr/index'),
 		'es-mx': require('./common/i18n/es-mx/index'),
 		'fi': require('./common/i18n/fi/index')
+		'fi': require('./common/i18n/fi/index'),
+		'tr': require('./common/i18n/tr/index')
 	}
 })
 
