@@ -46,6 +46,14 @@
 						name: 'Filipino',
 						id: 'fi'
 					},
+					{
+						name: 'हिन्दी',
+						id: 'in'
+					},
+					{
+						name: 'Indonesian',
+						id: 'id'
+					},
 					// {
 					// 	name: '繁体',
 					// 	id: 'zh-tw'

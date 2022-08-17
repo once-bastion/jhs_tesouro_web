@@ -48,17 +48,18 @@ const i18n = new VueI18n({
 	locale: 'tr',
 	// locale: 'pt-br',
 	messages: {
-		'pt-br': require('./common/i18n/pt-br/index'),
+		'pt-br': require('./common/i18n/pt-br/index'), // 葡萄牙
 		'zh-cn': require('./common/i18n/zh-cn/index'), // 中文语言包
-		// 'en-us': require('./common/i18n/en-us/index'), // 英文语言包
-
+		// 'en-us': require('./common/i18n/en-us/index'), // 英文
 		// 'zh-tw': require('./common/i18n/zh-tw/index'),
 		// 'ar-ae': require('./common/i18n/ar-ae/index'),
 		// 'ja-jp': require('./common/i18n/ja-jp/index'),
 		// 'ko-rkr': require('./common/i18n/ko-rkr/index'),
-		'es-mx': require('./common/i18n/es-mx/index'),
-		'fi': require('./common/i18n/fi/index'),
-		'tr': require('./common/i18n/tr/index')
+		'es-mx': require('./common/i18n/es-mx/index'), // 西班牙
+		'fi': require('./common/i18n/fi/index'), // 菲律宾
+		'tr': require('./common/i18n/tr/index'), //土耳其
+		'in': require('./common/i18n/in/index'),// 印地语
+		'id': require('./common/i18n/id/index'),// 印尼语
 	}
 })
 
