@@ -5,9 +5,9 @@
 			<image v-if="lang == 'pt-br'" class="logo" src="../../../assets/logo2.png" mode="widthFix"></image>
 			<image v-if="lang == 'fi'" class="logo" src="../../../assets/logo3.png" mode="widthFix"></image>
 			<image v-if="lang == 'es-mx'" class="logo" src="../../../assets/logo4.png" mode="widthFix"></image>
-			<image v-if="lang == 'tr'" class="logo" src=".../../../assets/logo5.png" mode="widthFix"></image>
-			<image v-if="lang == 'id'" class="logo" src=".../../assets/logo5.png" mode="widthFix"></image>
-			<image v-if="lang == 'in'" class="logo" src=".../../assets/logo5.png" mode="widthFix"></image>
+			<image v-if="lang == 'tr-tr'" class="logo" src=".../../../assets/logo5.png" mode="widthFix"></image>
+			<image v-if="lang == 'id'" class="logo" src=".../../assets/logo6.png" mode="widthFix"></image>
+			<image v-if="lang == 'in'" class="logo" src=".../../assets/logo7.png" mode="widthFix"></image>
 			<view class="header-info-right">
 				<view class="info-name">
 					{{welcome.nickname}}
@@ -81,7 +81,7 @@
 				bonus: 0,
 				bonus_day:0,
 				// lang: 'pt-br',
-				lang: 'tr',
+				lang: 'tr-tr',
 			};
 		},
 		mounted() {

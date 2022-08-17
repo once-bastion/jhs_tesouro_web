@@ -15,7 +15,26 @@
 					require('../../../assets/images/index/indexnew-bg3.png')
 				]
 			};
-		}
+		},
+		mounted() {
+			//根据语言判断出的图
+			let langid = uni.getStorageSync('langid')
+			console.log(langid)
+			if (langid == 'tr-tr') {
+				this.list = [
+					require('../../../assets/images/index/indexnew-bg3-tr-tr.png'),
+					require('../../../assets/images/index/indexnew-bg3-tr-tr.png'),
+					require('../../../assets/images/index/indexnew-bg3-tr-tr.png')
+				]
+			}
+			if (langid == 'es-mx') {
+				this.list = [
+					require('../../../assets/images/index/indexnew-bg3.png'),
+					require('../../../assets/images/index/indexnew-bg3.png'),
+					require('../../../assets/images/index/indexnew-bg3.png')
+				]
+			}
+		},
 	}
 </script>
 

@@ -7,9 +7,9 @@
 			<image v-if="lang == 'pt-br'" class="logo" src="../../assets/logo2.png" mode="widthFix"></image>
 			<image v-if="lang == 'fi'" class="logo" src="../../assets/logo3.png" mode="widthFix"></image>
 			<image v-if="lang == 'es-mx'" class="logo" src="../../assets/logo4.png" mode="widthFix"></image>
-			<image v-if="lang == 'tr'" class="logo" src="../../assets/logo5.png" mode="widthFix"></image>
-			<image v-if="lang == 'id'" class="logo" src="../../assets/logo5.png" mode="widthFix"></image>
-			<image v-if="lang == 'in'" class="logo" src="../../assets/logo5.png" mode="widthFix"></image>
+			<image v-if="lang == 'tr-tr'" class="logo" src="../../assets/logo5.png" mode="widthFix"></image>
+			<image v-if="lang == 'id'" class="logo" src="../../assets/logo6.png" mode="widthFix"></image>
+			<image v-if="lang == 'in'" class="logo" src="../../assets/logo7.png" mode="widthFix"></image>
 			<view class="registry-box">
 				<view class="registry-box-item">
 					<image src="../../assets/images/login/phone.png" mode="widthFix"></image>
@@ -96,7 +96,7 @@
 				},
 				code_url: '',
 				url_code: "",
-				lang: 'tr',
+				lang: 'tr-tr',
 				// lang: 'pt-br',
 			};
 		},

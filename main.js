@@ -38,14 +38,15 @@ $mRouter.beforeEach((navType, to) => {
 import uView from '@/uni_modules/uview-ui'
 Vue.use(uView)
 
-Vue.prototype.basePath = "https://api.hetianxia.shop"
+// Vue.prototype.basePath = "https://api.hetianxia.shop"
+Vue.prototype.basePath = "https://api.seahorse11.com/"// 后端新接口
 
 //Vue.prototype.basePath = "http://api.qd.com"
 // 引入多语言设置
 import VueI18n from 'vue-i18n'
 Vue.use(VueI18n)
 const i18n = new VueI18n({
-	locale: 'tr',
+	locale: 'tr-tr',
 	// locale: 'pt-br',
 	messages: {
 		'pt-br': require('./common/i18n/pt-br/index'), // 葡萄牙
@@ -57,7 +58,7 @@ const i18n = new VueI18n({
 		// 'ko-rkr': require('./common/i18n/ko-rkr/index'),
 		'es-mx': require('./common/i18n/es-mx/index'), // 西班牙
 		'fi': require('./common/i18n/fi/index'), // 菲律宾
-		'tr': require('./common/i18n/tr/index'), //土耳其
+		'tr-tr': require('./common/i18n/tr-tr/index'), //土耳其
 		'in': require('./common/i18n/in/index'),// 印地语
 		'id': require('./common/i18n/id/index'),// 印尼语
 	}

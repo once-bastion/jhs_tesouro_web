@@ -40,7 +40,7 @@
 					},
 					{
 						name: 'Türk',
-						id: 'tr'
+						id: 'tr-tr'
 					},
 					{
 						name: 'Filipino',
